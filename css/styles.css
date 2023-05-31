@@ -10,18 +10,21 @@ h{
     font-family: 20; font-family: 'Georgia', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 a{
-    color:rgb(34, 4, 4);
+    color:rgb(7, 92, 80);
 }
 a:visited{
-    color: lightslategrey;
+    color: #ff1414;
 }
 
 table, tr, th,td, caption {
-    border: 2px solid orange;
+    border: 2px solid rgb(197, 241, 93);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-collapse: collapse;
     padding: 0.5rem;
     text-align: center;
     align-content: center;
     align-self: center;
+}
+footer{
+    color: antiquewhite;
 }
