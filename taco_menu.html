@@ -13,9 +13,9 @@
         <nav aria-labelledby="main-navigatioin">
             <ul>
                 <li><a style="text-decoration: none;" href="http://localhost:52330/index.html">Home</a></li>
-                <li><a style="text-decoration: none;" href="http://127.0.0.1:5501/taco_menu.html#">Taco Menu</a></li>
-                <li><a style="text-decoration: none;" href="#openinghours">Opening Hours</a></li>
-                <li><a style="text-decoration: none" href="#contactus";>Contact Us</a></li>
+                <li><a style="text-decoration: none;" href="/taco_menu.html">Taco Menu</a></li>
+                <li><a style="text-decoration: none;" href="/opening_hours.html">Opening Hours</a></li>
+                <li><a style="text-decoration: none" href="/contact_us.html";>Contact Us</a></li>
             </ul>
         </nav>
         <hr>
@@ -82,6 +82,93 @@
                     </tbody>
                 </table>
         </article>
+<p>
+    <article>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Taco Snacks Order</legend>
+                <p>
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="First Name" autocomplete="on" required autofocus>
+                </p>
+                <p>
+                    <label for="firstName">Middle Name</label>
+                    <input type="text" name="middleName" id="middleName" placeholder="middleName" autocomplete="on" required autofocus>
+                </p>
+                <p>
+                    <label for="LastName">Last Name</label>
+                    <input type="text" name="LastName" id="LastName" placeholder="Last Name" autocomplete="on" required autofocus>
+                </p>
+                <p>
+                    <label for="LastName">Phone Number</label>
+                    <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="23412345678" autofocus>
+                </p>
+                <p>
+                    <label for="LastName">Email</label>
+                    <input type="@mailto" name="email" id="email" placeholder="E-mail" autofocus>
+                </p>
+            </fieldset>
+            <p>
+                <fieldset>
+                    <legend>Select Taco of Choice</legend>
+                    <p>
+                        <input type="radio" name="food" id="Soft Taco" value="soft taco">
+                        <label for="soft taco">Soft Taco</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="food" id="Hard Taco" value="Hard taco">
+                        <label for="soft taco">Hard Taco</label>
+                    </p>
+                    
+                    <legend><b>Choose varieties of Tacos to Munch</b></legend>
+                    <p>
+                    <input type="checkbox" name="taco americanno" id="taco_amer" value="tacoAmericanno">
+                    <label for="tacamerno"></label> Taco Americanno</label>
+                </p>
+                    <p>
+                    <input type="checkbox" name="taco americanno" id="taco_amer" value="tacoAmericanno">
+                    <label for="tacamerno"></label>Carnitas Tacos</label>
+                </p>
+                    <p>
+                    <input type="checkbox" name="taco americanno" id="taco_amer" value="tacoAmericanno">
+                    <label for="tacamerno"></label> Taco Carne Asada</label>
+                </p>
+                    <p>
+                    <input type="checkbox" name="taco americanno" id="taco_amer" value="tacoAmericanno">
+                    <label for="tacamerno"></label> Taco Tinga</label>
+                </p>
+                    <p>
+                    <input type="checkbox" name="taco americanno" id="taco_amer" value="tacoAmericanno">
+                    <label for="tacamerno"></label> Breakfast Tacos</label>
+                </p>
+
+                </fieldset>
+                <label class="form-label" for="typeNumber" role="grid">Number of Tacos ordered </label>
+                <div class="form-outline">
+                <input type="number" id="typeNumber" class="form-control" width="25" height="20"/>
+                
+                
+            </div>
+                <p>
+                <fieldset>
+                    
+                    <legend>Send Me A Message</legend>
+                    <label for="messge">Message</label>
+                    <br>
+                    <textarea name="message" id="message" cols="50" rows="5" placeholder="Type your message"></textarea>
+                </fieldset>
+                
+                <br>
+                  <button type="submit" formaction="https://httpbin.org/post">Submit</button>
+                <button type="reset">Reset Form</button>
+                <br>
+            </p>
+
+        </form>
+    </article>
+
+    </p>
+
 
 <p>
         <a style="text-decoration:none" href="#">Back to Top</a>
