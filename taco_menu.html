@@ -143,11 +143,18 @@
                 </p>
 
                 </fieldset>
-                <label class="form-label" for="typeNumber" role="grid">Number of Tacos ordered </label>
-                <div class="form-outline">
+                <br>
+                <!-- <label class="form-label" for="typeNumber" role="grid">Soft Tacos Quantity </label>
+                <div class="form-outline"> -->
+                    Soft Tacos Quantity
+                <input type="number" id="typeNumber" class="form-control" width="25" height="20"/>
+                <p>
+                <!--<label class="form-label" for="typeNumber" role="grid">Hard Taco(s) Quantity </label>
+                <div class="form-outline">-->
+                    Hard Taco(s) Quantity
                 <input type="number" id="typeNumber" class="form-control" width="25" height="20"/>
                 
-                
+            </p>
             </div>
                 <p>
                 <fieldset>
@@ -159,8 +166,36 @@
                 </fieldset>
                 
                 <br>
-                  <button type="submit" formaction="https://httpbin.org/post">Submit</button>
-                <button type="reset">Reset Form</button>
+                <style>
+                    .submit-button {
+                        background-color: rgb(1, 90, 56);
+                        color: whitesmoke;
+                        
+                        height:36px;
+                        width: 115px;
+                        border-color: orangered;
+                        border-style:solid ;
+                        border-radius: 25px;
+                        cursor: pointer;
+                        margin-right: 8px;
+                    }
+                    .reset-button{
+                        background-color: rgb(71, 14, 67);
+                        color: whitesmoke;
+                        border-color: orange;
+                        border-style: solid;
+                        border-height:36px;
+                        border-width: 1px;
+                        color: rgb(252, 252, 252);
+                        height: 36px;
+                        width: 120px;
+                        border-radius: 33px;
+                        cursor: pointer
+                    }
+                </style>
+                <button class="submit-button" type="submit" formaction="https://httpbin.org/post">Submit</button>
+                  <button class="reset-button"
+                type="reset">Reset Form</button>
                 <br>
             </p>
 

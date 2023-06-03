@@ -14,8 +14,12 @@ a{
 }
 a:visited{
     color: #ff1414;
+
 }
 
+button{
+    background-color: ;
+}
 table, tr, th,td, caption {
     border: 2px solid rgb(197, 241, 93);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
