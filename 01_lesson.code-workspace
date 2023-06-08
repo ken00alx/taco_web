@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../01_lesson"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "taco_web"
+	}
+}

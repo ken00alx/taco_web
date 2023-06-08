@@ -35,21 +35,9 @@
             <abbr title="Little Taco Shop">LTS</abbr> was founded in <time datetime="2022">2022</time>. Our shop was built from a <strong>love of tacos 🌮🌮🌮</strong>. We hope our shop adds a unique and interesting place to our little town.
         </p>
 
-        
-        <p>
-            <h2><abbr title="Liittle Taco Shop"> LTS</abbr> Contact Us Form</h2>
-        Please kindly fill the form to get in-touch with us and we will respond <em>swiftly</em>
-        <section>
-
-        </section>
-        <p>
-            <section>
-                <form action="httpbin.org/get" method="get">            
-            <fieldset>
-                <legend for="name">Taco Review</legend>
-                
+       
             </fieldset>
-            </form>
+           
         </section>
             <dl>
                 <dt>Sunday-Thursday</dt>
@@ -59,6 +47,105 @@
             </dl>
         </p>
     
+         
+        <p>
+            <h2><abbr title="Liittle Taco Shop"> LTS</abbr> Contact Us Form</h2>
+        Please kindly fill the form to get in-touch with us and we will respond <em>swiftly</em>
+             
+        <p>
+            <section>
+                <form action="httpbin.org/get" method="get">            
+            <fieldset>
+                <legend for="name">Taco Review</legend>
+                <p>
+                    <label for="SurName">Surname</label>
+                    <input type="text" name="SurName" id="SurName" placeholder="Surname" autocomplete="on" required autofocus>
+                </p>
+                <p>
+                    <label for="SurName">Middle Name</label>
+                    <input type="text" name="Middle Name" id="Middle Name" placeholder="Middle Name" autocomplete="on" required autofocus>
+                </p>
+                <p>
+                    <label for="SurName">Last Name</label>
+                    <input type="text" name="Last Name" id="Last Name" placeholder="Last Name" autocomplete="on" required autofocus>
+                </p>
+                <p>
+                    <label for="SurName">Mobile Number</label>
+                    <input type="tel" name="MobileNUmber" id="MobileNumber" placeholder="23412345678" autocomplete="on" required autofocus>
+                </p>
+                
+            </fieldset><p>
+            <fieldset>
+                <legend for="name">Taco Recomendation</legend>
+                On the scale of 1 to 5 how likely would you recomend someone for a taste of our tacos? Where 5 is very likely.</p>
+
+                <p>
+                    <input type="radio" name="food" id="Definately" value="Definately">
+                    <label for="Definately">5. Most Definately</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="Definately" value="Definately">
+                    <label for="Definately">4. Definately</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="Definately" value="Definately">
+                    <label for="Definately">3. It's OK</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="Definately" value="Not Really">
+                    <label for="Definately">2. Not Really</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="Definately" value="Definately">
+                    <label for="Definately">1. Definately Not</label>
+                </p>
+                        
+            </fieldset>
+            <p>
+                <fieldset>
+                    <label>To serve you better kindly suggest reasons for the above selection button to enable us improve to serve you in the future</label>
+
+
+                    <p>
+
+                    Message:
+                    <br>
+                    <textarea name="message" id="message" placeholder="Type your suggestion Here" cols="30" rows="5"></textarea></p>
+                </fieldset>
+            </p>
+            <br>
+            <style>
+                 .submit_button{
+                     background-color: rgb(255, 102, 56);
+                     color:azure;
+                     height: 35px;
+                     width: 112px;
+                     border-radius: 3;
+                     cursor: pointer;
+                 }
+                 .reset_button{
+                     background-color: rgb(39, 191, 230);
+                     color:azure;
+                     height: 35px;
+                     width: 112px;
+                     border-radius: 3;
+                     cursor: pointer;
+                                            
+                 }
+
+        </style>
+
+
+        
+        
+        <button class="submit_button" type="submit" formaction="https://httpbin.org/post">Submit</button>
+        <button class="reset_button" type="reset">Reset</button>
+        <br>
+
+
+
+            </form>
+        </section>
     </main>
     
     
